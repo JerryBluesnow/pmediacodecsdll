@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\G729ARM">
+      <UniqueIdentifier>{10a6c782-5e8f-4ea6-bec1-8a60223dad3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\include">
+      <UniqueIdentifier>{97d3a495-846a-488b-b904-396549c5d3a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\G711">
+      <UniqueIdentifier>{1c2b8b38-6b83-458f-8793-fa8444e5869d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="com_fusion_serv_utils_mediacodec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\basic_op.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\configDictionary.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CRC16.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\G711.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gsm.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hshb_pub.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\hshb_type.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jni.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jni_md.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ld8a.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\oper_32b.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\parson.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\private.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\proto.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rtos_alive.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\security.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sigsegv.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sysconfig.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tab_ld8a.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\toast.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tpool.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\typedef.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\unproto.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\voice_Encoder_Decoder.h">
+      <Filter>源文件\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\acelp_ca.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\basic_op.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\bits.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\cod_ld8a.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\coder.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\cor_func.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\de_acelp.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\dec_gain.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\dec_lag3.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\dec_ld8a.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\dspfunc.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\filter.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\gainpred.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\lpc.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\lpcfunc.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\lspdec.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\lspgetq.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\o_parity.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\oper_32b.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\pitch_a.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\post_pro.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\postfilt.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\pre_proc.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\pred_lt3.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\qua_gain.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\qua_lsp.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\tab_ld8a.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\taming.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G729A_ARM\util.c">
+      <Filter>源文件\G729ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="G711\G711.c">
+      <Filter>源文件\G711</Filter>
+    </ClCompile>
+    <ClCompile Include="mediacodecAPI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
